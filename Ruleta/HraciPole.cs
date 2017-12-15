@@ -10,7 +10,7 @@ namespace Ruleta
     {
         public int Cislo;
         public Barva Barva;
-        public Rozsah Rozsah;
+//        public Rozsah Rozsah; toto odstarnujeme von,nema buducnost
         public Rada Rada;
         public Lichost Lichost;
 
