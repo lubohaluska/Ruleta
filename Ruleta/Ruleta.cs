@@ -12,8 +12,20 @@ namespace Ruleta
         // tymto si hned inacializujeme stol, kedze ho mame skor vytvoreny
         public HraciStul HraciStul = new HraciStul();
 
-        public Zahraj(Sazka sazka, Hrac hrac)
+        public void Zahraj(Sazka sazka, Hrac hrac)
         {
+            // najprv sa pytam na co stavis, farbu?, cislo? ....
+            // vytoci cislo
+            // HraciPole vytoceneHp = VytocCislo()
+
+            // porovna jestli vyhral ci ne
+            //  hrac.Bank += VratVyhru(sazka, vytoceneHp);
+
+            // uprav hracovi banka
+
+            // sazku zaznamena do historie
+
+
 
         }
 
