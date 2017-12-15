@@ -15,22 +15,24 @@ namespace Ruleta
             Barva[] rozmisteniBarev = new Barva[37] { Barva.zelena, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna, Barva.cervena, Barva.cerna };
             for (int i = 0; i < rozmisteniBarev.Length; i++)
             {
-                HraciPolicka[i].Barva = rozmisteniBarev[i];
-
                 {
+                    HraciPolicka[i].Barva = rozmisteniBarev[i];
                     HraciPolicka[i].Cislo = i;
                     HraciPolicka[i].Rada = vratRadu(i);
                     HraciPolicka[i].Lichost = vratLichost(i);
                 }
 
-
-
-
-
             }
 
 
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cislo"></param>
+        /// <returns></returns>  zmacknes tri lomitka a mozes robit popis
+       
         private Lichost vratLichost(int cislo)
         {
             if (cislo == 0)

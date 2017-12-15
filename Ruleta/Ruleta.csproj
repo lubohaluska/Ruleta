@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hrac.cs" />
     <Compile Include="HraciPole.cs" />
     <Compile Include="HraciStul.cs" />
+    <Compile Include="Ruleta.cs" />
+    <Compile Include="Sazka.cs" />
+    <Compile Include="TypSazky.cs" />
     <Compile Include="VlastnostiPolicka.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
