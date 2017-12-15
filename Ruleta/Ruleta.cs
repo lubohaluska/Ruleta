@@ -24,9 +24,6 @@ namespace Ruleta
             // uprav hracovi banka
 
             // sazku zaznamena do historie
-
-
-
         }
 
     }
